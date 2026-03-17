@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mathesh S — Full Stack Developer portfolio. Java, Spring Boot, MERN Stack, and Cybersecurity. View projects, skills, and experience.">
+  <meta name="keywords" content="Mathesh S, portfolio, full stack developer, Java, Spring Boot, MERN, React, web developer">
+  <meta name="author" content="Mathesh S">
+  <title>Mathesh S — Full Stack Developer Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">Mathesh<span>.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-particles">
+      <canvas id="hero-particles"></canvas>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Mathesh S</span>
+        </h1>
+        <div class="hero-subtitle" id="hero-subtitle">
+          <span class="cursor"></span>
+        </div>
+        <p class="hero-description">
+          A motivated and detail-oriented software developer with strong programming fundamentals and problem-solving skills. Passionate about building efficient, user-focused applications and staying current with modern technologies.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            Get in Touch
+          </a>
+          <a href="https://github.com/Mathesh3005" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            View GitHub
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Technologies</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">1</div>
+            <div class="stat-label">Internship</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-avatar-ring">
+          <div class="hero-avatar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Expertise</span>
+        <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+        <p class="section-subtitle">Technologies and tools I work with to build robust applications</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Languages -->
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-card-icon languages">⟨/⟩</div>
+          <h3 class="skill-card-title">Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">Multithreading</span>
+            <span class="skill-tag">Exception Handling</span>
+            <span class="skill-tag">Collections</span>
+          </div>
+        </div>
+
+        <!-- Front-End -->
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-card-icon frontend">🎨</div>
+          <h3 class="skill-card-title">Front-End</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">ReactJS</span>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="skill-card reveal reveal-delay-3">
+          <div class="skill-card-icon frameworks">⚙️</div>
+          <h3 class="skill-card-title">Frameworks</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Spring</span>
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Hibernate</span>
+          </div>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-card-icon database">🗄️</div>
+          <h3 class="skill-card-title">Database</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-card-icon tools">🛠️</div>
+          <h3 class="skill-card-title">Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">IntelliJ IDEA</span>
+            <span class="skill-tag">MySQL Workbench</span>
+            <span class="skill-tag">STS</span>
+            <span class="skill-tag">Postman</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Education Section ===== -->
+  <section class="section education-section" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Background</span>
+        <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+        <p class="section-subtitle">Academic journey and educational milestones</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2024 — 2028</span>
+            <h3 class="timeline-title">Sethu Institute of Technology</h3>
+            <p class="timeline-subtitle">B.E., Cyber Security</p>
+            <span class="timeline-score">CGPA: 8.4</span>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2023 — 2024</span>
+            <h3 class="timeline-title">Grace Matriculation Higher Secondary School</h3>
+            <p class="timeline-subtitle">HSC</p>
+            <span class="timeline-score">83%</span>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal reveal-delay-3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2021 — 2022</span>
+            <h3 class="timeline-title">St. John Peter Matriculation School</h3>
+            <p class="timeline-subtitle">SSLC</p>
+            <span class="timeline-score">80%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Showcasing projects that demonstrate my skills and passion</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Guava Farming -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-image-wrapper">
+            <img src="assets/guava-farming.png" alt="AI-Powered Smart Guava Farming Dashboard" class="project-image">
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">AI-Powered Smart Guava Farming</h3>
+            <p class="project-description">
+              Python-based system using TensorFlow, OpenCV, and IoT sensors to detect guava crop diseases and monitor conditions in real time.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">TensorFlow</span>
+              <span class="tech-tag">OpenCV</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">Raspberry Pi</span>
+              <span class="tech-tag">IoT</span>
+            </div>
+            <ul class="project-features">
+              <li>CNN model for leaf disease classification</li>
+              <li>Integrated sensor data with Raspberry Pi</li>
+              <li>Flask dashboard for real-time monitoring</li>
+              <li>Recommendation engine for farming insights</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Project 2: BUYZONE -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-image-wrapper">
+            <img src="assets/buyzone.png" alt="BUYZONE E-Commerce Website" class="project-image">
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">BUYZONE — E-Commerce Website</h3>
+            <p class="project-description">
+              Full-stack e-commerce platform with user authentication, product management, and admin dashboard using the MERN stack.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Express.js</span>
+              <span class="tech-tag">React.js</span>
+              <span class="tech-tag">Node.js</span>
+            </div>
+            <ul class="project-features">
+              <li>User auth & CRUD operations</li>
+              <li>RESTful APIs for data handling</li>
+              <li>Search, filtering & cart management</li>
+              <li>Admin dashboard for inventory & orders</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Project 3: Social Media -->
+        <div class="project-card reveal reveal-delay-3">
+          <div class="project-image-wrapper">
+            <img src="assets/social-media.png" alt="Social Media Platform" class="project-image">
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Social Media Platform</h3>
+            <p class="project-description">
+              Feature-rich social media website with real-time chat, posting, commenting, and admin moderation tools.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Express.js</span>
+              <span class="tech-tag">React.js</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">JWT</span>
+            </div>
+            <ul class="project-features">
+              <li>Secure auth with JWT & bcrypt</li>
+              <li>Posting, commenting & likes</li>
+              <li>Real-time chat functionality</li>
+              <li>Admin dashboard for moderation</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience Section ===== -->
+  <section class="section experience-section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Experience</span>
+        <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">Professional experience and industry exposure</p>
+      </div>
+
+      <div class="experience-card reveal">
+        <div class="experience-header">
+          <div>
+            <h3 class="experience-title">MERN Stack Intern</h3>
+            <p class="experience-company">CodeAlpha (Remote)</p>
+          </div>
+          <div class="experience-meta">
+            <span class="experience-badge">Internship</span>
+            <span class="experience-year">2024</span>
+          </div>
+        </div>
+        <ul class="experience-list">
+          <li>Completed a MERN stack internship with hands-on full-stack development</li>
+          <li>Developed CRUD functionalities and RESTful APIs</li>
+          <li>Implemented authentication workflows</li>
+          <li>Built responsive React UI components</li>
+          <li>Improved skills in Git, debugging, and deployment workflows</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Certifications Section ===== -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Credentials</span>
+        <h2 class="section-title">My <span class="gradient-text">Certifications</span></h2>
+        <p class="section-subtitle">Professional certifications and continuous learning</p>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-icon">📜</div>
+        <h3 class="cert-title">Java Full Stack Development</h3>
+        <p class="cert-institution">CADD Centre, Madurai</p>
+        <p class="cert-duration">6-Month Certified Course — 2025</p>
+        <ul class="cert-details">
+          <li>Learned Java, Spring Boot, HTML, CSS, and JavaScript</li>
+          <li>Built end-to-end web applications</li>
+          <li>Implemented REST APIs and database integration</li>
+          <li>Practiced debugging, deployment, and Git version control</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Connect</span>
+        <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Feel free to reach out for collaborations or opportunities</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal reveal-delay-1">
+          <div class="contact-icon">📧</div>
+          <p class="contact-label">Email</p>
+          <p class="contact-value">
+            <a href="mailto:mathuamg3008@gmail.com">mathuamg3008@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="contact-card reveal reveal-delay-2">
+          <div class="contact-icon">📱</div>
+          <p class="contact-label">Mobile</p>
+          <p class="contact-value">
+            <a href="tel:+917010774680">+91 70107 74680</a>
+          </p>
+        </div>
+
+        <div class="contact-card reveal reveal-delay-3">
+          <div class="contact-icon">💼</div>
+          <p class="contact-label">LinkedIn</p>
+          <p class="contact-value">
+            <a href="https://www.linkedin.com/in/mathesh-s-261222330" target="_blank" rel="noopener noreferrer">Mathesh S</a>
+          </p>
+        </div>
+
+        <div class="contact-card reveal reveal-delay-4">
+          <div class="contact-icon">🐙</div>
+          <p class="contact-label">GitHub</p>
+          <p class="contact-value">
+            <a href="https://github.com/Mathesh3005" target="_blank" rel="noopener noreferrer">Mathesh3005</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="mailto:mathuamg3008@gmail.com" class="social-icon" aria-label="Email">📧</a>
+          <a href="https://www.linkedin.com/in/mathesh-s-261222330" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">💼</a>
+          <a href="https://github.com/Mathesh3005" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">🐙</a>
+        </div>
+        <p class="footer-copy">© 2025 Mathesh S. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
